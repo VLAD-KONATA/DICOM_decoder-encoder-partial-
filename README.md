@@ -1,4 +1,4 @@
-This is the backup of my MIIC(Medical Integrated Information Technology)'s final test project
+This is the backup of my MIIC(Medical Integrated Information Technology)'s final exam project
 
 Function:
 
