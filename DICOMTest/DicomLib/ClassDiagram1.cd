@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DICOMLib.DCMAbstractType">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAEAAIAAgAAAEAEAAAAAAAABEACAAAAAAABAAQAA=</HashCode>
+      <FileName>DCMDataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DCMDataElement">
+    <Position X="1" Y="5" Width="1.5" />
+    <InheritanceLine Type="DICOMLib.DCMAbstractType" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.851" />
+        <Point X="3.25" Y="4.743" />
+        <Point X="1.75" Y="4.743" />
+        <Point X="1.75" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DCMDataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DCMDataSet">
+    <Position X="4" Y="5" Width="1.5" />
+    <InheritanceLine Type="DICOMLib.DCMAbstractType" ManuallyRouted="true">
+      <Path>
+        <Point X="3.25" Y="4.851" />
+        <Point X="3.25" Y="4.752" />
+        <Point X="4.75" Y="4.752" />
+        <Point X="4.75" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="items" Type="DICOMLib.DCMAbstractType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="5.688" />
+        <Point X="5.914" Y="5.688" />
+        <Point X="5.914" Y="2.925" />
+        <Point X="4" Y="2.925" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DCMDataTypes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DICOMLib.BinaryReaderBE">
+    <Position X="16.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAAAAAAAAAAAgAAAAAACAAAACEAREQAABAA=</HashCode>
+      <FileName>BinaryReaderBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.TransferSyntax">
+    <Position X="11.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAEAAEAAAAAAAAAACAAAkAAAAAAQAQAAQAAA=</HashCode>
+      <FileName>TransferSyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="reader" />
+      <Field Name="dict" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DICOMLib.implicitVRLittleEndian">
+    <Position X="9.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>TransferSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.ExplicitVRLittleEndian">
+    <Position X="14" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>TransferSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.ExplicitVRBigEndian">
+    <Position X="11.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>TransferSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DicomDictionary">
+    <Position X="9.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DicomDictionary.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DICOMLib.DicomDictionaryEntry">
+    <Position X="6.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAACAQAAARAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DicomDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.IO.BinaryReader" Collapsed="true">
+    <Position X="16.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DICOMLib.VR">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAAAAEAAAAAAACAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.UL" Collapsed="true">
+    <Position X="19.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.CxEndian">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CxEndian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.US" Collapsed="true">
+    <Position X="22" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.VRFactory">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VRFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.SL" Collapsed="true">
+    <Position X="24" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.SS" Collapsed="true">
+    <Position X="26" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.ST" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.OW" Collapsed="true">
+    <Position X="36.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DCMFileMeta">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DCMFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DCMFile">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DCMFile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="filemeta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DICOMLib.OB" Collapsed="true">
+    <Position X="32.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.OF" Collapsed="true">
+    <Position X="34.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.AS" Collapsed="true">
+    <Position X="22" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.IS" Collapsed="true">
+    <Position X="24" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.FL" Collapsed="true">
+    <Position X="28.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DS" Collapsed="true">
+    <Position X="26" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.SH" Collapsed="true">
+    <Position X="28.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.LO" Collapsed="true">
+    <Position X="30.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.PN" Collapsed="true">
+    <Position X="32.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.LT" Collapsed="true">
+    <Position X="34.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.UT" Collapsed="true">
+    <Position X="36.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.UN" Collapsed="true">
+    <Position X="39" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.CS" Collapsed="true">
+    <Position X="19.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DA" Collapsed="true">
+    <Position X="22" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.AT" Collapsed="true">
+    <Position X="39" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.TM" Collapsed="true">
+    <Position X="24" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.DT" Collapsed="true">
+    <Position X="26" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.UI" Collapsed="true">
+    <Position X="28.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.AE" Collapsed="true">
+    <Position X="30.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.SQ" Collapsed="true">
+    <Position X="32.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DICOMLib.FD" Collapsed="true">
+    <Position X="30.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="10" />
+</ClassDiagram>

@@ -1,0 +1,10 @@
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.csprojAssemblyReference.cache
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.Form1.resources
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.Properties.Resources.resources
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.csproj.GenerateResource.cache
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.csproj.CoreCompileInputs.cache
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\bin\Debug\exp2.exe.config
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\bin\Debug\exp2.exe
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\bin\Debug\exp2.pdb
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.exe
+C:\data\1教学\医学信息集成技术\2019级\实验\exp2\exp2\obj\Debug\exp2.pdb
